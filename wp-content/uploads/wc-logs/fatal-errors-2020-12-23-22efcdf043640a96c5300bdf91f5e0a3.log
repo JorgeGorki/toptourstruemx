@@ -1,0 +1,26 @@
+2020-12-23T01:11:26+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/media.php en la línea 3472
+
+2020-12-23T01:13:36+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/media.php en la línea 3472
+
+2020-12-23T04:35:09+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T04:38:26+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T04:38:28+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T04:38:37+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T04:38:40+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T04:38:42+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T05:31:55+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T05:31:56+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T05:31:57+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T05:31:58+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
+2020-12-23T05:31:59+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 49152 bytes) en /home1/aeterea1/toptoursdmc.com/wp-includes/class-wp-image-editor-gd.php en la línea 96
+
