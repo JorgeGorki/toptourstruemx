@@ -1,0 +1,15 @@
+.post-type-shop_bogof_rule .wp-list-table .column-min_quantity,
+.post-type-shop_bogof_rule .wp-list-table .column-free_quantity,
+.post-type-shop_bogof_rule .wp-list-table .column-cart_limit {
+	width: 130px;
+}
+
+.post-type-shop_bogof_rule .wp-list-table .column-enabled {
+	width: 80px;
+}
+.post-type-shop_bogof_rule .wp-list-table .wc-bogof-rule-toggle-enabled {
+	padding-top: 1px;
+	display: block;
+	outline: 0;
+	box-shadow: none;
+}
