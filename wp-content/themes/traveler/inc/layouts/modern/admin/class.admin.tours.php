@@ -1441,6 +1441,7 @@ if (!class_exists('STAdminTours')) {
                                 'label' => __('Amount', ST_TEXTDOMAIN),
                                 'value' => 'amount'
                             ]
+                            
                         ]
                     ],
                     [
