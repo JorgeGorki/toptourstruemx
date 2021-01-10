@@ -1,0 +1,600 @@
+# Copyright (C) 2020 Oscar Gare
+# This file is distributed under the same license as the WooCommerce Buy One Get One Free plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Buy One Get One Free 2.0.12\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-buy-one-get-one-free\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-15T10:04:19+00:00\n"
+"PO-Revision-Date: 2020-07-15T10:04:19+00:00\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: wc-buy-one-get-one-free\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Buy One Get One Free"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://woocommerce.com/products/buy-one-get-one-free/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create Buy One, Get One Free deals in your WooCommerce store."
+msgstr ""
+
+#. Author of the plugin
+msgid "Oscar Gare"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.linkedin.com/in/oscargare"
+msgstr ""
+
+#. Translators: 1,2: HTML tags, 2: extension name, 3: min version required.
+#: includes/class-wc-bogof-integrations.php:59
+msgid "The installed version of %1$s%3$s%2$s is not supported by %1$sBuy One Get One Free%2$s. Please update %1$s%3$s%2$s to version %1$s%4$s%2$s or higher."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-limit.php:16
+#: includes/admin/views/html-admin-page-category.php:25
+#: includes/admin/class-wc-bogof-admin-list-table.php:88
+msgid "Free items limit"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-limit.php:17
+#: includes/admin/views/html-admin-page-category.php:26
+msgid "The maximum number of free items the user can get when buy multiples of \"Buy quantity\". Leave blank for unlimited free items."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-limit.php:20
+msgid "Unlimited free items"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-limit.php:31
+msgid "Usage limit per user"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-limit.php:32
+msgid "How many times this rule can be used by an individual user. Leave blank for unlimited."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-limit.php:35
+msgid "Unlimited usage"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:10
+msgid "Product categories"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:19
+msgid "Enable/Disable "
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:20
+msgid "Enable rule"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:27
+#: includes/admin/views/html-admin-page-category.php:17
+msgid "Deal mode"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:29
+#: includes/admin/class-wc-bogof-admin-list-table.php:130
+msgid "Buy products and get and get a different product(s) for free"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:30
+#: includes/admin/class-wc-bogof-admin-list-table.php:127
+msgid "Buy a product and get the same product for free"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:38
+#: includes/admin/class-wc-bogof-admin-list-table.php:84
+#: includes/admin/class-wc-bogof-admin-list-table.php:85
+msgid "Applies To"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:40
+#: includes/admin/class-wc-bogof-admin-list-table.php:141
+msgid "Specific product(s)"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:41
+#: includes/admin/class-wc-bogof-admin-list-table.php:144
+msgid "Product category(s)"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:50
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:52
+#: includes/admin/views/html-bogof-rule-data-general.php:143
+#: includes/admin/class-wc-bogof-admin-list-table.php:172
+msgid "All Products"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:56
+#: includes/admin/views/html-bogof-rule-data-general.php:147
+msgid "Choose categories&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:64
+msgid "Products"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:66
+#: includes/admin/views/html-bogof-rule-data-general.php:116
+#: includes/admin/views/html-bogof-rule-data-general.php:131
+#: includes/admin/views/html-admin-page-category-rows.php:38
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:35
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:76
+msgid "Individual "
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:77
+msgid "Check this box if the rule should be applied individually to each product of the category."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:87
+#: includes/admin/views/html-admin-page-category.php:19
+#: includes/admin/class-wc-bogof-admin-list-table.php:86
+msgid "Buy quantity"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:102
+msgid "Action"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:104
+msgid "Add a free product to the cart"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:105
+msgid "Allow customers to choose the gift(s) from a product category(s)"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:106
+msgid "Allow customers to choose the gift(s) from a lists of products"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:115
+#: includes/admin/views/html-admin-page-category.php:18
+msgid "Free product"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:130
+msgid "From products"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:140
+msgid "From product categories"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:157
+#: includes/admin/views/html-admin-page-category.php:21
+#: includes/admin/class-wc-bogof-admin-list-table.php:87
+msgid "Get free quantity"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-general.php:159
+#: includes/admin/views/html-admin-page-category.php:22
+msgid "The free items the user will get when buy multiples of \"Buy quantity\"."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-category-rows.php:11
+msgid "You need to create product categories first"
+msgstr ""
+
+#. Translators: %s Payment gateway name.
+#: includes/admin/views/html-admin-page-category-rows.php:18
+#: includes/admin/class-wc-bogof-admin-list-table.php:226
+msgid "Yes"
+msgstr ""
+
+#. Translators: %s Payment gateway name.
+#: includes/admin/views/html-admin-page-category-rows.php:20
+#: includes/admin/class-wc-bogof-admin-list-table.php:229
+msgid "No"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-category-rows.php:31
+msgid "Buy product A and get product A free"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-category-rows.php:32
+msgid "Buy product A and get product B free"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-category-rows.php:33
+msgid "Buy product of the category and get product B free"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-category-rows.php:56
+msgid "Unlimited"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-category.php:15
+#: includes/admin/class-wc-bogof-admin-list-table.php:82
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/views/html-admin-page-category.php:16
+msgid "Category"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:10
+msgid "User roles"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:19
+msgid "Coupons"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:20
+msgid "Search for a coupon&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:24
+msgid "Coupons that enable the rule."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:34
+msgid "Exclude products"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:37
+msgid "Products that the rule will not be applied to."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:47
+msgid "Allowed user roles"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:48
+msgid "Choose user roles&hellip;"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:49
+msgid "User roles that the rule will be available."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:73
+msgid "Start date"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:75
+msgid "The deal will begin at 00:00 of this date."
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:87
+msgid "End date"
+msgstr ""
+
+#: includes/admin/views/html-bogof-rule-data-usage-restriction.php:89
+msgid "The deal will end at 23:59 of this date."
+msgstr ""
+
+#. translators: HTML tags.
+#: includes/admin/class-wc-bogof-install.php:140
+msgid "%1$sBuy One Get One Free Database Update Required%2$s We just need to update your install to the latest version."
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:142
+msgid "Run the updater"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:146
+msgid "It is strongly recommended that you backup your database before proceeding. Are you sure you wish to run the updater now?"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:160
+msgid "Thank you for updating to the latest version of Buy One Get One Free!"
+msgstr ""
+
+#. translators: 1: the plugin version, 2 and 3: HTML tags.
+#: includes/admin/class-wc-bogof-install.php:165
+msgid "Version %1$s brings some great new features. Take a moment to review the %2$splugin documentation%3$s."
+msgstr ""
+
+#. translators: HTML tags.
+#: includes/admin/class-wc-bogof-install.php:196
+msgid "%1$sWooCommerce Buy One Get One Free%2$s installed. You're ready to add your first BOGO rule."
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:199
+msgid "Dismiss"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:202
+msgid "Add a BOGO rule"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:203
+#: includes/admin/class-wc-bogof-install.php:220
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:204
+#: includes/admin/class-wc-bogof-install.php:238
+msgid "View documentation"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:220
+msgid "View plugin settings"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:238
+msgid "Docs"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:254
+msgctxt "Page slug"
+msgid "choose your gift"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-install.php:255
+msgctxt "Page title"
+msgid "Choose your gift"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-meta-boxes.php:57
+#: includes/class-wc-buy-one-get-one-free.php:81
+msgid "BOGO rules"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-meta-boxes.php:67
+#: includes/class-wc-buy-one-get-one-free.php:85
+msgid "Add new BOGO rule"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-meta-boxes.php:76
+#: includes/class-wc-buy-one-get-one-free.php:87
+msgid "Edit BOGO rule"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-meta-boxes.php:96
+msgid "Rule data"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-meta-boxes.php:139
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-meta-boxes.php:144
+msgid "Limits"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-meta-boxes.php:149
+msgid "Usage restriction"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-list-table.php:46
+msgid "The Buy One Get One rules is a great way to offer rewards to your customers. They will appear here once created."
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-list-table.php:47
+msgid "Create your first BOGO rule"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-list-table.php:81
+msgid "Name"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-list-table.php:83
+msgid "Type"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-list-table.php:148
+msgid "and"
+msgstr ""
+
+#. Translators: %s Payment gateway name.
+#: includes/admin/class-wc-bogof-admin-list-table.php:226
+msgid "The \"%s\" rule is currently enabled"
+msgstr ""
+
+#. Translators: %s Payment gateway name.
+#: includes/admin/class-wc-bogof-admin-list-table.php:229
+msgid "The \"%s\" rule is currently disabled"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:30
+msgid "Buy One Get One Free"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:45
+msgid "Buy One Get One"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:49
+msgid "Choose your gift page"
+msgstr ""
+
+#. Translators: %s Page contents.
+#: includes/admin/class-wc-bogof-admin-settings.php:51
+msgid "Page contents: %s"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:57
+msgid "This page needs to be set so that WooCommerce knows where to send users to choose the free products."
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:60
+msgid "Choose your gift notice"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:61
+msgid "Message of the notice to show customer when there are eligible free products. Use [qty] for the number of items."
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:69
+msgid "Choose your gift button text"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:76
+msgid "Disable coupons"
+msgstr ""
+
+#: includes/admin/class-wc-bogof-admin-settings.php:77
+msgid "Disable coupons usage if there is a free BOGO item in the cart."
+msgstr ""
+
+#: includes/class-wc-bogof-choose-gift-shortcode.php:198
+msgid "There are no gifts for you yet."
+msgstr ""
+
+#: includes/class-wc-bogof-choose-gift-shortcode.php:201
+msgid "Return to shop"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:82
+msgid "BOGO rule"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:83
+msgctxt "Admin menu name"
+msgid "Buy One Get One"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:84
+msgid "Add BOGO rule"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:86
+msgid "Edit"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:88
+msgid "New BOGO rule"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:89
+msgid "View BOGO rule"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:90
+msgid "Search rule"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:91
+msgid "No rules found"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:92
+msgid "No rules found in trash"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:93
+msgid "Filter rules"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:94
+msgid "Rules navigation"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:95
+msgid "BOGO rules list"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:97
+msgid "This is where you can add new BOGO rules that customers can use in your store."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:127
+#: includes/class-wc-buy-one-get-one-free.php:130
+#: includes/class-wc-buy-one-get-one-free.php:132
+msgid "BOGO rule updated."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:128
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:129
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:131
+msgid "Revision restored."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:133
+msgid "BOGO rule saved."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:134
+msgid "BOGO rule submitted."
+msgstr ""
+
+#. translators: %s: date
+#: includes/class-wc-buy-one-get-one-free.php:137
+msgid "BOGO rule scheduled for: %s."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:138
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:140
+msgid "BOGO rule draft updated."
+msgstr ""
+
+#: includes/class-wc-buy-one-get-one-free.php:141
+msgid "BOGO rule updated and sent."
+msgstr ""
+
+#. translators: HTML Tags.
+#: includes/class-wc-buy-one-get-one-free.php:260
+msgid "%1$sWooCommerce Buy One Get One Free%2$s requires WooCommerce to be activated to work."
+msgstr ""
+
+#. translators: HTML Tags.
+#: includes/class-wc-buy-one-get-one-free.php:266
+msgid "WooCommerce Buy One Get One Free - The minimum WooCommerce version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#. translators: %s: product name
+#: includes/class-wc-bogof-cart-rule.php:169
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: product name
+#: includes/class-wc-bogof-cart-rule.php:171
+msgid "%s has been added to your cart for free!"
+msgid_plural "%s have been added to your cart for free!"
+msgstr[0] ""
+
+#. translators: 1 free products qty, 2,3: html tags.
+#: includes/class-wc-bogof-choose-gift.php:179
+msgid "You can now add %1$s product for free to the cart."
+msgid_plural "You can now add %1$s products for free to the cart."
+msgstr[0] ""
+
+#. translators: 1 free products qty, 2,3: html tags.
+#: includes/class-wc-bogof-choose-gift.php:180
+msgid "Choose your gift"
+msgstr ""
+
+#. translators: HTML tags.
+#: includes/class-wc-bogof-choose-gift.php:190
+msgid "The \"choose your gift\" page has not set! Customers will not be able to add to the cart the free product. Go to the %1$ssettings page%2$s and set a page that contains the [wc_choose_your_gift] shortcode. "
+msgstr ""
+
+#. Translators: HTML tags.
+#: includes/integrations/class-wc-bogof-wpml.php:182
+msgid "%1$sBuy One Get One Free%2$s requires you set the option %3$sSwitching languages when there are items in the cart%4$s to %1$sPrompt for a confirmation and reset the cart%2$s."
+msgstr ""
+
+#: includes/data-stores/class-wc-bogof-rule-data-store-cpt.php:155
+msgid "Invalid BOGO rule."
+msgstr ""

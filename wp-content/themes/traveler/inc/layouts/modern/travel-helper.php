@@ -551,7 +551,8 @@ if (!class_exists('TravelHelper')) {
             $args = array(
                 'post_type'=> $post_type,
                 'post_status'=> $post_status,
-                'order'    => 'ASC'
+                'order'    => 'ASC',
+                'numberposts' => -1
             );              
             
             $the_query = get_posts( $args );

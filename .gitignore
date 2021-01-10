@@ -1,0 +1,4 @@
+*.log   
+
+wp-content/uploads/*
+

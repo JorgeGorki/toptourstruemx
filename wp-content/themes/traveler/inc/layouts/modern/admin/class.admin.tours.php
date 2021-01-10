@@ -894,10 +894,10 @@ if (!class_exists('STAdminTours')) {
             $st_tours = TravelHelper::get_posts_by_type('st_tours');
             $options = array();
             foreach($st_tours as $tour){
-                // $options [] = [
-                //     'label' => __($tour->post_title, ST_TEXTDOMAIN),
-                //     'value' => $tour->ID
-                // ];
+                $options [] = [
+                    'label' => __($tour->post_title, ST_TEXTDOMAIN),
+                    'value' => $tour->ID
+                ];
             }
             //Room
             $this->metabox[] = [
@@ -1441,6 +1441,7 @@ if (!class_exists('STAdminTours')) {
                                 'label' => __('Amount', ST_TEXTDOMAIN),
                                 'value' => 'amount'
                             ]
+                            
                         ]
                     ],
                     [
