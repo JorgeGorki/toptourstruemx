@@ -1816,7 +1816,7 @@ if (!class_exists('STTour')) {
                 global $sitepress;
                 $sitepress->switch_lang($current_lang, true);
             }
-            $price_new = $results[0]->min;
+            $price_new = get_post_meta($post_id, 'min_price', true);;
             $price_new_sale  = $price_new;
             if(!empty($discount_type)){
                 switch ($discount_type){
@@ -1834,12 +1834,14 @@ if (!class_exists('STTour')) {
             }
             $html = "";
             if ( !$hide_title and $price_new > 0 ) {
-                $html .= __( "From  ", ST_TEXTDOMAIN );
+                $html .= __( "desde  ", ST_TEXTDOMAIN );
             }
             if ( $price_new_sale != $price_new ) {
                 $html .= '<span class="text-small lh1em item onsale ">' . TravelHelper::format_money( $price_new ) . "</span>";
             }
             $price_new = TravelHelper::format_money( $price_new ) ;
+            $min_price = get_post_meta($post_id, 'min_price', true);
+            $price_new = TravelHelper::format_money( $min_price ) ;
             $html .= '<span class="text-lg lh1em item "> ' . TravelHelper::format_money( $price_new_sale ). "</span>";
             return apply_filters( 'st_get_tour_price_html', $html );
         }

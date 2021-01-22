@@ -2,6 +2,30 @@
 /**
  * Template Name: Tour Search Result
  */
+
+// $posts = get_posts([
+//     'post_type' => 'st_tours',
+//     'post_status' => 'publish',
+//     'numberposts' => -1
+
+//  ]);
+
+//  foreach($posts as $post){
+//     $post_id = $post->ID;
+
+    
+//                 $prices     = [];
+//                 $prices[] = get_post_meta( $post_id, 'adult_price', true );
+//                 $prices[] = get_post_meta( $post_id, 'child_price', true );
+//                 $prices[] = get_post_meta( $post_id, 'infant_price', true );
+                
+//                 $min_price = (float) min( $prices );
+    
+//     // $min_price = STAdminTours::get_min_price($post_id);
+//     update_post_meta( $post_id, 'min_price', $min_price );
+//  }
+// var_dump($data);
+
 if (!st_check_service_available('st_tours')) {
     wp_redirect(home_url());
     die;

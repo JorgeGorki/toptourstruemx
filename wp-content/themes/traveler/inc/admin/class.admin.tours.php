@@ -1481,6 +1481,12 @@
                 $min_price = self::get_min_price( $post_id );
                 update_post_meta( $post_id, 'min_price', $min_price );
             }
+            
+            static function static_meta_update_min_price( $post_id )
+            {
+                $min_price = self::get_min_price( $post_id );
+                update_post_meta( $post_id, 'min_price', $min_price );
+            }
 
             function meta_update_sale_price( $post_id )
             {
