@@ -1783,12 +1783,15 @@ if (!class_exists('STTour')) {
                 if ( ! empty( $prices['adult'] ) ) {
                     $price_old = $prices['adult'];
                     $price_new = $prices['adult_new'];
+                    $price_list['adult'] = get_post_meta($post_id, 'adult_price', true);
                 } elseif ( ! empty( $prices['child'] ) && empty( $prices['adult'] ) ) {
                     $price_old = $prices['child'];
                     $price_new = $prices['child_new'];
+                    $price_list['child'] = get_post_meta($post_id, 'child_price', true);;
                 } elseif ( ! empty( $prices['infant'] ) && empty( $prices['adult'] ) && empty( $prices['child'] ) ) {
                     $price_old = $prices['infant'];
                     $price_new = $prices['infant_new'];
+                    $price_list['infant'] = get_post_meta($post_id, 'infant_price', true);;
                 }
             }else{
                 $price_old = $prices['base'];
@@ -1816,14 +1819,16 @@ if (!class_exists('STTour')) {
                 global $sitepress;
                 $sitepress->switch_lang($current_lang, true);
             }
-            $price_new = get_post_meta($post_id, 'min_price', true);;
+            // $price_new = $results[0]->min;
+            
+            $price_new = min($price_list);
             $price_new_sale  = $price_new;
             if(!empty($discount_type)){
                 switch ($discount_type){
                     case 'amount':
                         $price_new_sale  = $price_new -  $discount;
                         break;
-                    default:
+                        default:
                         if(isset($discount) && ($discount > 0)){
                             $price_new_sale  = $price_new - ( $price_new / 100 ) * $discount;
                         } else {
