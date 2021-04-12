@@ -446,3 +446,5 @@
 [17-Feb-2021 03:15:07 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home1/aeterea1/mx.toptoursdmc.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
 [23-Feb-2021 20:52:24 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home1/aeterea1/mx.toptoursdmc.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
 [23-Feb-2021 20:52:25 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home1/aeterea1/mx.toptoursdmc.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
+[12-Apr-2021 15:43:50 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home1/aeterea1/mx.toptoursdmc.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
+[12-Apr-2021 15:43:51 UTC] PHP Notice:  Undefined property: Vc_Updater::$title in /home1/aeterea1/mx.toptoursdmc.com/wp-content/plugins/js_composer/include/classes/updaters/class-vc-updating-manager.php on line 99
